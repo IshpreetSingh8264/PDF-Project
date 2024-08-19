@@ -1,0 +1,136 @@
+/* src/MergePDF.css */
+.merge-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.merge-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.merge-container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.upload-area {
+    border: 2px dashed #ff5a5f;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.upload-area:hover {
+    background-color: #f0f0f0;
+}
+
+.upload-area.dragover {
+    background-color: #e0e0e0;
+}
+
+.upload-icon {
+    font-size: 40px;
+    color: #ff5a5f;
+    margin-bottom: 10px;
+}
+
+.upload-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.upload-button {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff5a5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #e94e4f;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* src/MergePDF.css */
+.merge-container {
+    padding: 20px;
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.upload-area.dragover {
+    border-color: #ff5a5f;
+    background-color: #f9f9f9;
+}
+
+.upload-icon {
+    font-size: 50px;
+}
+
+.upload-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: move;
+}
+
+.upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #e0484d;
+}

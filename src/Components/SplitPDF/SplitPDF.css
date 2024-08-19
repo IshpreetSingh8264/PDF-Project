@@ -1,0 +1,211 @@
+.split-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.upload-area {
+    background-color: #fff;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    background-color: #f0f8ff;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.upload-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.left-panel,
+.right-panel {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.split-options {
+    margin-bottom: 1rem;
+}
+
+.split-options h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.split-options label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.range-options {
+    margin-bottom: 1rem;
+}
+
+.custom-ranges,
+.fixed-range {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.custom-ranges .range-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.custom-ranges input,
+.fixed-range input {
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.split-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.split-button:hover {
+    background-color: #218838;
+}
+
+.thumbnail-container {
+    margin-top: 1rem;
+}
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.thumbnail-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumbnail-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail-item.selected {
+    border: 2px solid #007bff;
+}
+
+.thumbnail-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.thumbnail-item span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.small-button {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+    background-color: #5a6268;
+}
+
+.hide {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .centered-content {
+        flex-direction: row;
+    }
+
+    .left-panel {
+        width: 60%;
+        margin-right: 1rem;
+    }
+
+    .right-panel {
+        width: 35%;
+    }
+}
