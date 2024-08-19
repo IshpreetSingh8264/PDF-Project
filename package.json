@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https:ishpreetsingh8264.github.io/PDF-Project",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
